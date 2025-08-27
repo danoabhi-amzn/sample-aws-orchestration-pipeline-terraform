@@ -1,0 +1,65 @@
+[
+  {
+    "timestamp": "2025-08-27T21:40:26Z",
+    "request_id": "2222222",
+    "account_id": "1234567890",
+    "application_name": "test-bucket-3418",
+    "environment_id": "dev",
+    "resource_type": "s3",
+    "request_type": "create",
+    "region": "us-west-2",
+    "status": "deployed",
+    "terraform_outputs": {
+      "s3_bucket_arn": {
+        "sensitive": false,
+        "type": "string",
+        "value": "arn:aws:s3:::test-bucket-3418-dev-demo"
+      },
+      "s3_bucket_bucket_domain_name": {
+        "sensitive": false,
+        "type": "string",
+        "value": "test-bucket-3418-dev-demo.s3.amazonaws.com"
+      },
+      "s3_bucket_bucket_regional_domain_name": {
+        "sensitive": false,
+        "type": "string",
+        "value": "test-bucket-3418-dev-demo.s3.us-west-2.amazonaws.com"
+      },
+      "s3_bucket_hosted_zone_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "Z3BJ6K6RIION7M"
+      },
+      "s3_bucket_id": {
+        "sensitive": false,
+        "type": "string",
+        "value": "test-bucket-3418-dev-demo"
+      },
+      "s3_bucket_lifecycle_configuration_rules": {
+        "sensitive": false,
+        "type": "string",
+        "value": ""
+      },
+      "s3_bucket_policy": {
+        "sensitive": false,
+        "type": "string",
+        "value": ""
+      },
+      "s3_bucket_region": {
+        "sensitive": false,
+        "type": "string",
+        "value": "us-west-2"
+      },
+      "s3_bucket_website_domain": {
+        "sensitive": false,
+        "type": "string",
+        "value": ""
+      },
+      "s3_bucket_website_endpoint": {
+        "sensitive": false,
+        "type": "string",
+        "value": ""
+      }
+    }
+  }
+]
