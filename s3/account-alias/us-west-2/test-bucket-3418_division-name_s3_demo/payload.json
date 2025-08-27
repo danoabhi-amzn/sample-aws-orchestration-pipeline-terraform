@@ -1,6 +1,6 @@
 {
   "RequestId": "2222222",
-  "RequestType": "create",
+  "RequestType": "delete",
   "ResourceType": "s3",
   "AccountId": "1234567890",
   "AccountAlias": "account-alias",
