@@ -1,0 +1,22 @@
+{
+  "RequestId": "1234567",
+  "RequestType": "create",
+  "ResourceType": "s3",
+  "AccountId": "970547376651",
+  "AccountAlias": "danoabhi",
+  "RegionId": "us-west-2",
+  "ApplicationName": "devops-test-1",
+  "DivisionName": "gcci",
+  "EnvironmentId": "dev",
+  "Suffix": "demo",
+  "Parameters": [
+    {
+      "S3": {
+        "block_public_acls": true,
+        "block_public_policy": true,
+        "ignore_public_acls": true,
+        "restrict_public_buckets": true
+      }
+    }
+  ]
+}
